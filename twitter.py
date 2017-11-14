@@ -26,7 +26,7 @@ def tweet():
         entryWidget.delete(0,END)
         print("working")
 
-t = Twitter(
+t = twitter(
     auth=OAuth('929752297340534786-pXd0olkpF6dBDfDK5mL2oY9j5ugKPUU', 'HemetwwLBwamM6pt4CWgk2IV2TtUfuGEnS40U7v9jiMyt',
                '5NswPby3STpD7PpODiBrPSRGlqFhOCKgGq0Vwj72CpUzWbQDiE', '2v6nkOKXqUG7mAUKMDOXkkrey'))
 
